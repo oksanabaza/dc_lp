@@ -61,18 +61,15 @@
           const video = document.getElementById('vid');
           const btn = document.getElementById('play');
           btn.addEventListener('click', () => {
+            if (counter == 2) {
+              window.location = 'https://google.com';
+            }
             video.play();
             video.muted = false;
             video.currentTime = 0;
             counter += 1;
             console.log(counter);
           });
-          setInterval(() => {
-            // document.getElementById('vid').click();
-            // document.getElementById('vid').play();
-            // document.getElementById('vid').muted = false;
-            // document.getElementById('vid').play();
-          }, 100);
         });
       </script>
     </div>
