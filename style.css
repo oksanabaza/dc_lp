@@ -20,28 +20,26 @@ body {
   margin-bottom: 19%;
   width: 30%; */
   z-index: 3;
-  
 }
-.tv-div{
+.tv-div {
   bottom: 0vh;
 }
 .tv-video-desk {
-    display: block;
-    position: fixed;
-    left: 51vw;
-    bottom: 43vh;
-    z-index: 2;
-    width: 28%;
-    transform: scaleY(1.61);
-    /* left: 52vw;
+  display: block;
+  position: fixed;
+  left: 51vw;
+  bottom: 43vh;
+  z-index: 2;
+  width: 28%;
+  transform: scaleY(1.61);
+  /* left: 52vw;
     margin-bottom: 24%;
     z-index: 2;
     width: 27%;
     transform: scaleY(1.69); */
-  }
+}
 
-
-.text-desk img{
+.text-desk img {
   display: block;
   width: 50%;
   position: absolute;
@@ -61,13 +59,13 @@ body {
   height: 100%;
   z-index: 4;
 }
-.cards-mob img{
-display: none;
+.cards-mob img {
+  display: none;
 }
 .table img {
   position: fixed;
   left: 0px;
-  width: 100%;  
+  width: 100%;
 }
 .btn img {
   position: fixed;
@@ -81,20 +79,18 @@ display: none;
   transform: scale(1.2);
 }
 
-
 @media only screen and (min-width: 50px) and (max-width: 320px) {
   body {
     background: url(./img/bg.jpg) 0% 0% no-repeat;
     background-size: cover;
     background-color: black;
     max-height: 674px;
-    
   }
   .TV img {
     position: fixed;
     left: 5%;
     width: 90%;
-    
+
     z-index: 3;
   }
   .TV {
@@ -114,14 +110,14 @@ display: none;
     z-index: 2;
     transform: scaleY(1.7);
   }
-  
-  .text img{
+
+  .text img {
     display: block;
     width: 100%;
     position: absolute;
     z-index: 5;
   }
-  .text-desk{
+  .text-desk {
     display: none;
   }
   .cards-mob img {
@@ -130,7 +126,7 @@ display: none;
     bottom: 0px;
     width: 100%;
   }
-  .cards-desk{
+  .cards-desk {
     display: none;
   }
   .table img {
@@ -163,7 +159,7 @@ display: none;
     position: fixed;
     left: 5%;
     width: 90%;
-    
+
     z-index: 3;
   }
   .TV {
@@ -184,14 +180,14 @@ display: none;
     z-index: 2;
     transform: scaleY(1.7);
   }
-  
-  .text img{
+
+  .text img {
     display: block;
     width: 100%;
     position: absolute;
     z-index: 5;
   }
-  .text-desk{
+  .text-desk {
     display: none;
   }
   .cards-mob img {
@@ -202,7 +198,7 @@ display: none;
     width: 100%;
     z-index: 4;
   }
-  .cards-desk img{
+  .cards-desk img {
     display: none;
   }
 
@@ -237,7 +233,7 @@ display: none;
     position: fixed;
     left: 5%;
     width: 90%;
-   
+
     z-index: 3;
   }
   .TV {
@@ -257,8 +253,7 @@ display: none;
     z-index: 2;
     transform: scaleY(1.7);
   }
-  .text img{
-    
+  .text img {
     display: none;
   }
 
@@ -268,7 +263,6 @@ display: none;
     bottom: 0px;
     width: 100%;
     height: 60%;
-    
   }
   .table img {
     position: fixed;
@@ -302,7 +296,6 @@ display: none;
     width: 50%;
 
     z-index: 3;
-    
   }
   .TV {
     position: relative;
@@ -322,10 +315,9 @@ display: none;
     width: 42%;
     margin-top: 51%;
     transform: scaleY(1.97);
-    
   }
-  .text img{
-  display: none;
+  .text img {
+    display: none;
   }
   .text-desk img {
     display: block;
@@ -334,7 +326,7 @@ display: none;
     z-index: 5;
     left: 5%;
     top: 5%;
-}
+  }
   .cards img {
     position: fixed;
     left: 0px;
@@ -355,7 +347,6 @@ display: none;
     left: 30%;
     bottom: 20px;
     width: 40%;
-    
   }
   .btn img:hover {
     transform: scale(1.2);
@@ -366,28 +357,26 @@ display: none;
     background: url(./img/bg-desk.png) 0% 0% no-repeat;
     background-size: cover;
     background-color: black;
-    
   }
-  
+
   .TV {
     position: fixed;
     bottom: 25vh;
     left: 50vw;
     width: 30%;
     z-index: 3;
-    
   }
   .tv-video-desk {
     display: block;
-      position: fixed;
-      left: 51vw;
-      top: 20vh;
-      z-index: 2;
-      width: 28%;
-      transform: scaleY(1.61);
+    position: fixed;
+    left: 51vw;
+    top: 20vh;
+    z-index: 2;
+    width: 28%;
+    transform: scaleY(1.61);
   }
-  
-  .text-desk img{
+
+  .text-desk img {
     display: block;
     width: 50%;
     position: absolute;
@@ -398,7 +387,7 @@ display: none;
   .text img {
     display: none;
   }
-  
+
   .cards-desk img {
     position: fixed;
     left: 0px;
@@ -407,13 +396,13 @@ display: none;
     height: 100%;
     z-index: 4;
   }
-  .cards-mob img{
-  display: none;
+  .cards-mob img {
+    display: none;
   }
   .table img {
     position: fixed;
     left: 0px;
-    width: 100%;  
+    width: 100%;
   }
   .btn img {
     position: fixed;
@@ -425,111 +414,111 @@ display: none;
   }
   .btn img:hover {
     transform: scale(1.2);
-  } 
+  }
 }
 
- @media only screen and (min-width: 1100px) and (max-width: 1279px) {
+@media only screen and (min-width: 1100px) and (max-width: 1279px) {
   .tv-video-desk {
     bottom: 36vh;
-}
+  }
 }
 @media only screen and (min-width: 1024px) and (height: 600px) {
   .tv-video-desk {
-      top: -50vh;
+    top: -50vh;
   }
 }
-@media only screen and (min-width: 1026px) and (max-width: 1060px){
+@media only screen and (min-width: 1026px) and (max-width: 1060px) {
   .tv-video-desk {
-      top: 52vh;
+    top: 52vh;
   }
 }
-@media only screen and (min-width: 1060px) and (max-width: 1250px){
+@media only screen and (min-width: 1060px) and (max-width: 1250px) {
   .tv-video-desk {
-      top: 50vh;
+    top: 50vh;
   }
 }
 @media only screen and (min-width: 1152px) and (height: 864px) {
   .tv-video-desk {
-      top: 44vh;
+    top: 44vh;
   }
 }
 @media only screen and (min-width: 1200px) and (height: 600px) {
   .tv-video-desk {
-      top: 30vh;
+    top: 30vh;
   }
 }
 @media only screen and (min-width: 1200px) and (height: 768px) {
   .tv-video-desk {
-      top: 40vh;
+    top: 40vh;
   }
 }
 @media only screen and (min-width: 1200px) and (height: 1024px) {
   .tv-video-desk {
-      top: 48vh;
+    top: 48vh;
   }
 }
 @media only screen and (min-width: 1280px) and (min-height: 1024px) {
   .tv-video-desk {
-      bottom: 38vh;
+    bottom: 38vh;
   }
 }
 @media only screen and (min-width: 1440px) and (min-height: 1050px) {
   .tv-video-desk {
-      bottom: 39vh;
+    bottom: 39vh;
   }
 }
 @media only screen and (min-width: 1536px) and (min-height: 1024px) {
   .tv-video-desk {
-      bottom: 40vh;
+    bottom: 40vh;
   }
 }
 @media only screen and (min-width: 1600px) and (min-height: 1024px) {
   .tv-video-desk {
-      bottom: 41vh;
+    bottom: 41vh;
   }
 }
 @media only screen and (min-width: 1600px) and (min-height: 1200px) {
   .tv-video-desk {
-      bottom: 38vh;
+    bottom: 38vh;
   }
 }
 @media only screen and (min-width: 1680px) and (min-height: 1050px) {
   .tv-video-desk {
-      bottom: 41vh;
+    bottom: 41vh;
   }
 }
 @media only screen and (min-width: 1920px) and (min-height: 1200px) {
   .tv-video-desk {
-      bottom: 41vh;
+    bottom: 41vh;
   }
 }
 @media only screen and (min-width: 2048px) and (min-height: 1536px) {
   .tv-video-desk {
-      bottom: 38vh;
+    bottom: 38vh;
   }
 }
 @media only screen and (min-width: 2560px) and (min-height: 1600px) {
   .tv-video-desk {
-      bottom: 41vh;
+    bottom: 41vh;
   }
 }
 @media only screen and (min-width: 2560px) and (min-height: 2048px) {
   .tv-video-desk {
-      bottom: 37vh;
+    bottom: 37vh;
   }
 }
 @media only screen and (min-width: 3200px) and (min-height: 2048px) {
   .tv-video-desk {
-      bottom: 40vh;
+    bottom: 40vh;
   }
 }
 @media only screen and (min-width: 3200px) and (min-height: 2400px) {
   .tv-video-desk {
-      bottom: 38vh;
+    bottom: 38vh;
   }
 }
 @media only screen and (width: 375px) and (height: 812px) {
-  .TV{
+  .TV {
     margin-top: 72%;
   }
   .tv-video-desk {
@@ -537,7 +526,7 @@ display: none;
   }
 }
 @media only screen and (width: 768px) and (height: 1024px) {
-  .TV{
+  .TV {
     margin-top: 88%;
   }
   .tv-video-desk {
@@ -546,16 +535,16 @@ display: none;
 }
 @media only screen and (min-width: 1272px) and (max-width: 1400px) {
   .tv-video-desk {
-      bottom: 36vh;
+    bottom: 36vh;
   }
 }
 @media only screen and (min-height: 800px) and (max-height: 900px) {
   .tv-video-desk {
-      bottom: 46vh;
+    bottom: 46vh;
   }
 }
 @media only screen and (width: 768px) and (height: 1024px) {
   .tv-div {
-      bottom: 24vh;
+    bottom: 24vh;
   }
 }
