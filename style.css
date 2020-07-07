@@ -12,13 +12,13 @@ body {
 }
 .TV {
   position: fixed;
-  /* bottom: 25vh;
+  bottom: 25vh;
   left: 50vw;
   width: 30%;
-  z-index: 3; */
-  left: 50vw;
+  z-index: 3;
+  /* left: 50vw;
   margin-bottom: 19%;
-  width: 30%;
+  width: 30%; */
   z-index: 3;
   
 }
@@ -26,18 +26,18 @@ body {
   bottom: 0vh;
 }
 .tv-video-desk {
-  display: block;
+    display: block;
     position: fixed;
-    /* left: 51vw;
+    left: 51vw;
     bottom: 43vh;
     z-index: 2;
     width: 28%;
-    transform: scaleY(1.61); */
-    left: 52vw;
-   margin-bottom: 24%;
-   z-index: 2;
+    transform: scaleY(1.61);
+    /* left: 52vw;
+    margin-bottom: 24%;
+    z-index: 2;
     width: 27%;
-    transform: scaleY(1.69);
+    transform: scaleY(1.69); */
   }
 
 
@@ -82,7 +82,7 @@ display: none;
 }
 
 
-/* @media only screen and (min-width: 50px) and (max-width: 320px) {
+@media only screen and (min-width: 50px) and (max-width: 320px) {
   body {
     background: url(./img/bg.jpg) 0% 0% no-repeat;
     background-size: cover;
@@ -425,37 +425,10 @@ display: none;
   }
   .btn img:hover {
     transform: scale(1.2);
-  } */
+  } 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media only screen and (min-width: 1100px) and (max-width: 1279px) {
+ @media only screen and (min-width: 1100px) and (max-width: 1279px) {
   .tv-video-desk {
     bottom: 36vh;
 }
@@ -585,4 +558,4 @@ display: none;
   .tv-div {
       bottom: 24vh;
   }
-} */
+}
