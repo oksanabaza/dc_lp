@@ -1,77 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="tv-container">
-        <div class="tv-div" style="position: relative;">
-          <img class="TV" src="./img/tv3.png" alt="" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POKERDOM</title>
+  <!-- <link rel="stylesheet" href="normalize.css"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
 
-          <video
-            id="vid"
-            class="tv-video-desk tv-video-mob"
-            loop
-            autoplay
-            muted
-          >
-            <source
-              src="img/video.ogv"
-              type='video/ogg; codecs="theora, vorbis"'
-            />
-            <source
-              src="img/video.mp4"
-              type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
-            />
-            <source
-              src="img/video.webm"
-              type='video/webm; codecs="vp8, vorbis"'
-            />
-            Тег video не поддерживается вашим браузером.
-          </video>
-        </div>
-      </div>
+<body id="playOn">
 
-      <div class="text">
-        <img src="./img/text.png" alt="" />
-      </div>
-      <div class="text-desk">
-        <img src="./img/text-desk.png" alt="" />
-      </div>
-      <div class="cards-mob">
-        <img src="./img/cards2_2.png" alt="" />
-      </div>
-      <div class="cards-desk">
-        <img src="./img/cards-desk.png" alt="" />
-      </div>
-
-      <div class="btn" id="play">
-        <a href="#" noreferrer>
-          <img src="./img/btn.png" alt="" />
-        </a>
-      </div>
-      <script>
-        document.addEventListener('DOMContentLoaded', () => {
-          let counter = 0;
-          const video = document.getElementById('vid');
-          const btn = document.getElementById('play');
-          btn.addEventListener('click', () => {
-            if (counter == 2) {
-              window.location = 'https://google.com';
-            }
-            video.play();
-            video.muted = false;
-            video.currentTime = 0;
-            counter += 1;
-            console.log(counter);
-          });
-        });
-      </script>
+  <div class="tv-div">
+    <div class="TV">
+      <img src="./img/blue-tv.png" alt="" />
     </div>
-  </body>
+    <div class="tv-video-desk tv-video-mob">
+      <video id="vid" class="tv-video-desk tv-video-mob" loop autoplay muted>
+        <source src="img/video.ogv" type='video/ogg; codecs="theora, vorbis"' />
+        <source src="img/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+        <source src="img/video.webm" type='video/webm; codecs="vp8, vorbis"' />
+        Тег video не поддерживается вашим браузером.
+      </video>
+    </div>
+  </div>
+
+  <div class="text">
+    <img src="./img/text-mob.png" alt="" />
+  </div>
+  <div class="text-desk">
+    <img src="./img/text-desk.png" alt="" />
+  </div>
+  <div class="cards-mob">
+    <img src="./img/cards2_2.png" alt="" />
+  </div>
+  <div class="cards-desk">
+    <img src="./img/blue-cards-desk.png" alt="" />
+  </div>
+
+  <div class="btn" id="play">
+    <a href="#" noreferrer>
+      <img src="./img/btn.png" alt="xxx" />
+    </a>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      let counter = 0;
+      const video = document.getElementById('vid');
+      const body = document.getElementById('playOn');
+      body.addEventListener('mouseenter', () => {
+        // if (counter == 2) {
+        //   window.location = 'https://google.com';
+        // }
+        video.play();
+        video.muted = false;
+        video.currentTime = 0;
+        counter += 1;
+        console.log(counter);
+      });
+    });
+    // document.addEventListener('DOMContentLoaded', () => {
+    //   let test = document.getElementById("test");
+    //   test.addEventListener("mouseover", function (event) {
+    //     event.target.style.color = "white";
+    //     setTimeout(function () {
+    //       event.target.style.color = "";
+    //     }, 500);
+    //   }, false);
+    // });
+    document.addEventListener('DOMContentLoaded', () => {
+      let counter = 0;
+      const video = document.getElementById('vid');
+      const body = document.getElementById('playOn');
+      body.addEventListener('pointerenter', () => {
+        // if (counter == 2) {
+        //   window.location = 'https://google.com';
+        // }
+        video.play();
+        video.muted = false;
+        video.currentTime = 0;
+        counter += 1;
+        console.log(counter);
+      });
+    });
+
+
+  </script>
+</body>
+
 </html>
